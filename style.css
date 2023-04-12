@@ -31,12 +31,12 @@ p.description {
     line-height: 1.75em;
 }
 .title-area h1 {
-    font-size: 2em;
+    font-size: 1.75em;
     font-weight: bold;
     margin: 1rem;
 }
 .title-area h2 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: normal;
 }
 .projects {
@@ -143,4 +143,9 @@ p.description {
 .page-image {
     display: flex;
     flex-direction: column;
+}
+
+
+h1.title {
+    font-size: 1.75em;
 }

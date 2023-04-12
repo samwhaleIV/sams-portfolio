@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project Showcase</title>
+    <title>Samuel's Portfolio</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +10,14 @@
   <body>
     <div class="body-content">
       <div class="title-area">
-        <h1>Project Showcase</h1>
-        <h2>Samuel Robinson</h2>
+        <h1>Samuel's Portfolio</h1>
+        <h2>
+          While I've created many projects, most of them, visually, do not stand
+          out in any significant way. Code is code. A command line output isn't
+          very interesting to look at. Nor is middleware or APIs. Therefore,
+          this portfolio consists primarily of video game projects that I
+          created, using various programing languages and frameworks.
+        </h2>
         <p><a href="https://github.com/samwhaleIV">github.com/samwhaleIV</a></p>
       </div>
       <div class="projects">
@@ -27,7 +33,7 @@
             <div class="project-page">
               <p class="title">The Menu</p>
               <div class="page-image">
-                <img src="images/svcc/menu.png" />
+                <img src="images/svcc/1.png" />
                 <p class="description">
                   The main menu of the game, the UI layer conveniently rendered
                   in one call using a box-fill strategy. That is to say, the UI
@@ -40,7 +46,7 @@
             <div class="project-page">
               <p class="title">The Beginning</p>
               <div class="page-image">
-                <img src="images/svcc/clouds.png" />
+                <img src="images/svcc/2.png" />
                 <p class="description">
                   The first level of the game. While it won't be winning any
                   'pixel art of the year' awards, this level represents the
@@ -52,7 +58,7 @@
             <div class="project-page">
               <p class="title">DIY Level Editor</p>
               <div class="page-image">
-                <img src="images/svcc/level-editor.png" />
+                <img src="images/svcc/3.png" />
                 <p class="description">
                   To achieve maximum level design efficiency, I reinvented the
                   wheel to create a custom, tile-based level-editor. Using a
@@ -68,7 +74,7 @@
             <div class="project-page">
               <p class="title">Level Editor, 2.0</p>
               <div class="page-image">
-                <img src="images/svcc/dynam-map.png" />
+                <img src="images/svcc/4.png" />
                 <p class="description">
                   Toward the end of the project, I pushed the boundaries of what
                   the engine was capable of. I created a system for environments
@@ -86,7 +92,7 @@
             <div class="project-page">
               <p class="title">Lighting Effects</p>
               <div class="page-image">
-                <img src="images/svcc/shadows.png" />
+                <img src="images/svcc/5.png" />
                 <p class="description">
                   Creating efficient realtime lighting effects in a web browser,
                   with JavaScript, in an immediate mode OpenGL context that has
@@ -102,188 +108,425 @@
                 </p>
               </div>
             </div>
+            <div class="project-page">
+              <p class="title">Abstract Input Devices</p>
+              <div class="page-image">
+                <img src="images/svcc/6.png" />
+                <p class="description">
+                  As in all my projects, accessibility is a major concern.
+                  Whether you are using a mouse only, keyboard, joystick,
+                  touchscreen, or other impulse based devices, I believe that it
+                  is a necessity to accomodate a user on their preferred
+                  platform and physical abilities. Input logic and input
+                  processing are two different tasks. With this moduality,
+                  scenes such as this (simulating a bound, 2-axis claw machine)
+                  are allowed to to operate in logical, device specific ways
+                  while keeping the hazards of managing input state away from
+                  the game designer.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Starting to Work With Shaders</p>
+              <div class="page-image">
+                <img src="images/svcc/7.png" />
+                <p class="description">
+                  While not technically a shader, this project marks the
+                  beginning of my experience in writing shader-esque graphical
+                  effects, using different immediate mode raster and masking
+                  configurations. This user controllable boat was also a major
+                  learning effort in rigid body simulation and intertial effects
+                  of fluid dynamics. That it so say, combined with the
+                  procedural boat rowing animation, controlling this boat, with
+                  a controller or a keyboard, was highly intuitive.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Getting Weirder</p>
+              <div class="page-image">
+                <img src="images/svcc/8.png" />
+                <p class="description">
+                  Most levels in the game are puzzle based. Each level has a
+                  script that registers tile locations with known types of
+                  puzzle elements and the logic is self contained per level.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Dynamic Environments</p>
+              <div class="page-image">
+                <img src="images/svcc/9.png" />
+                <p class="description">
+                  Drawing every tile frame by frame isn't efficient enough for
+                  real time gameplay. The game is built on a tile state manager,
+                  that maintains an unscaled back-buffer of specific game
+                  layers. When a change is requested on an update cycle, the
+                  appropriate back buffer is updated. While the resolution of
+                  the game is high, in 1:1 pixel scale, performance was not a
+                  concern for modern hardware with much greater swapping
+                  capabilities. The browser gets to do the heavy lifting. So, of
+                  course, the game environments are highly dynamic. A map is
+                  loaded with a preset state and can be modified in any way at
+                  runtime.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Special Effects</p>
+              <div class="page-image">
+                <img src="images/svcc/10.png" />
+                <p class="description">
+                  Wanted to include this because I still think it's cool.
+                  Unfortunately, though this is not in an animated format, you
+                  will have to imagine it is. It's an infinite trailing tunnel
+                  of stars, with approximated 3D math to give the effect of
+                  barrelling parallax. In hindsight, it would be much simpler to
+                  just write it in 3D and let the hardware do the heavy lifting.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">RPG?</p>
+              <div class="page-image">
+                <img src="images/svcc/11.png" />
+                <p class="description">
+                  The game is an RPG, so a storyline was important, but let's be
+                  honest, it wasn't going to win the nobel priz. The text
+                  renderer used a l-e-t-t-e-r by letter effect, with satisfying
+                  'bloop' noises and skip button. You have to see it to believe
+                  it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project" style="background-color: #ec4b0a">
+          <div class="page-title-area">
+            <h1 class="title">You Versus Earth</h1>
+            <p class="description">
+              An early experiment into more advanced video game programming.
+            </p>
+          </div>
+          <div class="pages">
+            <div class="project-page">
+              <p class="title">Humble Beginnings</p>
+              <div class="page-image">
+                <img src="images/uvtc/1.png" />
+                <p class="description">
+                  My friend challenged me to keep making my menus better and
+                  better. While not up to my modern standard, this was my first
+                  major effort into cross platform video game UI design.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Trippy Designs</p>
+              <div class="page-image">
+                <img src="images/uvtc/2.png" />
+                <p class="description">
+                  I can't honestly say what was going through my mind when I
+                  made this waterfall meets lava lamp page, but nobody can claim
+                  I wasn't trying to be creative. Through this project, I would
+                  eventually push the Chromium browser so hard I'd stumble into
+                  graphical context switching bugs with the Chromium shell
+                  itself, which started a long and lengthy process of getting
+                  the bug fixed. Ironically, this was a great learning
+                  experience in managing enterprise grade software and industry
+                  standard bug tracking and fixing procedures. Triaging Google
+                  Chrome is not fun. It's complex enough to be its own operating
+                  system. Shoutout to the Google employees that knew more about
+                  the problem than I did. It eventually got fixed.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Controls</p>
+              <div class="page-image">
+                <img src="images/uvtc/3.png" />
+                <p class="description">
+                  I had an early eye for accessibility. So many projects get
+                  this wrong, but if you focus on accessibility from the start,
+                  it's easy to keep it up. Going back and adding missing
+                  accessibility later is a much more challenging prospect. While
+                  all the UI in this game was technically HTML5 based, it was
+                  rendered in a 2D rendering context, independent from the HTML
+                  DOM. I eventually realized this approach was misguided in
+                  other projects, where I instead chose to leverage the standard
+                  HTML layout engine for even greater UI capabilities. For this
+                  project, it kept things 'hypothetically' portable, but in
+                  practice, decouplin this project from the browser would have
+                  been a herculean task.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Well, it ain't pretty, but it worked</p>
+              <div class="page-image">
+                <img src="images/uvtc/4.png" />
+                <p class="description">
+                  Again, this was my first real project in top-down, 2D
+                  rendering. While it seems trivial to me now, this was
+                  foundational in building my knowledge of building far superior
+                  technology that would eventually eclipse this project
+                  entirely.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project" style="background-color: #8cb9a2">
+          <div class="page-title-area">
+            <h1 class="title">Assorted Projects</h1>
+            <p class="description">
+              Various projects that I couldn't generate or find enough
+              screenshots of to earn their own categories.
+            </p>
+          </div>
+          <div class="pages">
+            <div class="project-page">
+              <p class="title">Battleship</p>
+              <div class="page-image">
+                <img src="images/asrt/1.png" />
+                <p class="description">
+                  HTML5 with JavaScript. An asynchronous battle ship board that
+                  allows for as close an experience to real battleship, in that
+                  each player must manually update their state of their own and
+                  their opponent's boards. Yeah, networking is cool and all, but
+                  you can't beat the joy of human error in a high precision game
+                  such as battle ship. So pull up a Discord call, place some
+                  boats, and fight a game of statistical probability.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Ribbon</p>
+              <div class="page-image">
+                <img src="images/asrt/2.png" />
+                <p class="description">
+                  An experimental HTML5 game, based on a concept similar to
+                  Scrabble, in which you have a pool of letters and must create
+                  words by appending them to the end of the 'ribbon'. The
+                  longest matching word sliced from the existing portion of the
+                  visible ribbon scores the highest points.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Memeaker</p>
+              <div class="page-image">
+                <img src="images/asrt/3.png" />
+                <p class="description">
+                  A meme generator using random text generation, using a host of
+                  third party HTML5 libraries and such as Bootstrap and Giphy.
+                  Would love to recreate this sometime with AI related tech.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Image Viewer</p>
+              <div class="page-image">
+                <img src="images/asrt/4.png" />
+                <p class="description">
+                  A simple image viewer, made for quick opening and previews of
+                  sets of images. It allowed for panning, zooming, and cycling
+                  through upscale interpolation modes. So, even if you were
+                  working with pixel art, it wouldn't turn into a blurry mess.
+                  Lots of shortcuts were available and the program could be
+                  executed from the command line.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Keep With It</p>
+              <div class="page-image">
+                <img src="images/asrt/5.png" />
+                <p class="description">
+                  A workout planner written in C# for the Windows UWP platform,
+                  complete with rep/set counters and timers. While not the
+                  beautiful to look at, it featued large, intuitive timer
+                  controls operating under the assumption you wouldn't be
+                  spending a lot of time looking at the screen while doing your
+                  workout.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project" style="background-color: #313131">
+          <div class="page-title-area">
+            <h1 class="title">You Versus 27 Elves</h1>
+            <p class="description">
+              The first game project that I completed (and published!) A text
+              based strategy game, built around Christmas elves that had turned
+              to rise against the oppresion of holiday pressures.
+            </p>
+          </div>
+          <div class="pages">
+            <div class="project-page">
+              <p class="title">Elf Selection</p>
+              <div class="page-image">
+                <img src="images/uv27/1.png" />
+                <p class="description">
+                  Just as the title of the game, there really was exactly 27
+                  elves. Nothing more, nothing less. No false advertising to see
+                  here.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Fighting the Good Fight</p>
+              <div class="page-image">
+                <img src="images/uv27/2.png" />
+                <p class="description">
+                  Each elf was an experiment to how far a simple format could be
+                  pushed. 4 programmable buttons, 1 speech box, and a few extra
+                  lines of text. While the game's shell was simple, its
+                  complexity was much higher because there was no limit to what
+                  a creative game designer can accomplish with these
+                  restrictions. It was a text adventure wrapped in a shinier
+                  exterior, with elves and battles consisting of everything from
+                  trivia games, mathematical puzzles, and tradtional RPG style
+                  battles.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">Fire Effect</p>
+              <div class="page-image">
+                <img src="images/uv27/3.png" />
+                <p class="description">
+                  This was my first experiment into pushing an HTML5 context to
+                  its limits. Realtime, 2D Doom style fire. Thankfully, no
+                  actual computers caught fire in this process.
+                </p>
+              </div>
+            </div>
+            <div class="project-page">
+              <p class="title">The Boss</p>
+              <div class="page-image">
+                <img src="images/uv27/4.png" />
+                <p class="description">
+                  In hindsight, it's hard me to believe this project only took 4
+                  months. Looking back on the code now, it's an abomination, but
+                  it was a significant milestone in my software and game
+                  development journey. The first major project that I feel as
+                  though I truly completed. I only earned about $5 in the end,
+                  but it didn't matter. I was happy with the product, even
+                  though it is not up to my modern standards.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="project" style="background-color: red">
           <div class="page-title-area">
-            <h1 class="title">Seven Circles</h1>
+            <h1 class="title">Elves</h1>
             <p class="description">
-              Lorem ipsum is placeholder text commonly used in the graphic,
-              print, and publishing industries for previewing layouts and visual
-              mockups.
+              A reimagination of my first, major game development project with
+              more years of experience, Elves raised the bar in my standards for
+              code quality, user experience, and interface design.
             </p>
           </div>
           <div class="pages">
             <div class="project-page">
-              <p class="title">Page 1</p>
+              <p class="title">Making a Splash</p>
               <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
+                <img src="images/elves/1.png" />
                 <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
+                  No good game is complete without a splash screen. So, I took
+                  it literally. Having written the engine in scratch using C#
+                  and critical concern for realtime performance, this scene is
+                  rendered in 3D with orthographic projection, using a simple
+                  particle system to represent the elves floating by through the
+                  water. No memory is allocated on the heap after the first
+                  initialization. It could run on this screen forever until your
+                  computer or power fails.
                 </p>
               </div>
             </div>
             <div class="project-page">
-              <p class="title">Page 2</p>
+              <p class="title">Save Select</p>
               <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
+                <img src="images/elves/2.png" />
                 <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
+                  Difficult to demonstrate with static images, the background is
+                  a custom, infinitely scrolling dynamic shader, with realtime
+                  pan, rotation, and zoom effects. The UI system in the engine
+                  is written from the ground up (using a hybrid immediate mode
+                  approach) to allow for extremely simple to design motion
+                  graphics. Every UI element is screen size responsive and able
+                  to be animated as the context demands it. The real work house
+                  is the input system behind this all, allowing for keyboard
+                  focusing, gamepad control, mouse, and touch input, all while
+                  being opaque to the UI rendering and logic layers. It was a
+                  'why re-invent' the wheel approach, but in the project it
+                  allowed for extremely responsive user experience. Using the UI
+                  just 'feels right'.
                 </p>
               </div>
             </div>
             <div class="project-page">
-              <p class="title">Page 3</p>
+              <p class="title">Write your name!</p>
               <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
+                <img src="images/elves/3.png" />
                 <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
+                  Typing your name is boring. Writing your name in low-def with
+                  a mouse or joystick is a way more fun user experience. Well,
+                  maybe not fun in the traditional sense, but for a game about
+                  evil Christmas elves, wacky is the standard definition of fun.
+                  The name tag bitmap format is extremely compressed, using bit
+                  manipulation to store 1-dimensional pixels into 8 bits of a
+                  byte.
                 </p>
               </div>
             </div>
             <div class="project-page">
-              <p class="title">Page 4</p>
+              <p class="title">Battle Selection</p>
               <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
+                <img src="images/elves/4.png" />
                 <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
+                  Another menu, in a sea of endless menus. This page is also
+                  rendered in 3D, allowing for a rotating carousel effect from
+                  the currently selected elf and the next/previous. The
+                  background scrolls horizontally, infinitely. Most buttons in
+                  the game change their size dynammically, based on their
+                  press/hover stated.
                 </p>
               </div>
             </div>
             <div class="project-page">
-              <p class="title">Page 5</p>
+              <p class="title">Settings</p>
               <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
+                <img src="images/elves/5.png" />
                 <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
+                  Cellphones in games. User interfaces have now come full
+                  circle. Just like all the UI in the game, each page is
+                  controlled with whatever input device you have available to
+                  you. This page includes a helpful red arrow to indicate
+                  element focus.
                 </p>
               </div>
             </div>
             <div class="project-page">
-              <p class="title">Page 1</p>
+              <p class="title">Elf Game, Take #2</p>
               <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
+                <img src="images/elves/6.png" />
                 <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
-                </p>
-              </div>
-            </div>
-            <div class="project-page">
-              <p class="title">Page 1</p>
-              <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
-                <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="project" style="background-color: green">
-          <div class="page-title-area">
-            <h1 class="title">Seven Circles</h1>
-            <p class="description">
-              Lorem ipsum is placeholder text commonly used in the graphic,
-              print, and publishing industries for previewing layouts and visual
-              mockups.
-            </p>
-          </div>
-          <div class="pages">
-            <div class="project-page">
-              <p class="title">Page 1</p>
-              <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
-                <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
-                </p>
-              </div>
-            </div>
-            <div class="project-page">
-              <p class="title">Page 2</p>
-              <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
-                <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
-                </p>
-              </div>
-            </div>
-            <div class="project-page">
-              <p class="title">Page 3</p>
-              <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
-                <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
-                </p>
-              </div>
-            </div>
-            <div class="project-page">
-              <p class="title">Page 4</p>
-              <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
-                <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
-                </p>
-              </div>
-            </div>
-            <div class="project-page">
-              <p class="title">Page 5</p>
-              <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
-                <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
-                </p>
-              </div>
-            </div>
-            <div class="project-page">
-              <p class="title">Page 1</p>
-              <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
-                <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
-                </p>
-              </div>
-            </div>
-            <div class="project-page">
-              <p class="title">Page 1</p>
-              <div class="page-image">
-                <img src="images/svcc/alice-palace.png" />
-                <p class="description">
-                  Lorem ipsum is placeholder text commonly used in the graphic,
-                  print, and publishing industries for previewing layouts and
-                  visual mockups.
+                  You versus the guy she tells you not to worry about (pun
+                  intended). Compare and contrast, to You Versus 27 Elves. While
+                  I am not a gifted graphic designer, I hope that at least I
+                  have demonstrated by ability and commitment to personsal skill
+                  improvement. While this portfolio is mostly visual, I can
+                  assure you programming abilities expanded greatly among many
+                  projects that I have worked on, but especially the ones that I
+                  have showcased here.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <script src="script.js"></script>
     </div>
   </body>
 </html>

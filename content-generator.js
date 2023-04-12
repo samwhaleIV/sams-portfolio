@@ -93,8 +93,7 @@ const html = new htmlCreator([
                         type: "div",
                         attributes: { class: "projects" },
                         content: manifest.projects.map(createProject)
-                    },
-                    { type: "script", attributes: { src: "script.js" }}
+                    }
                 ]
             }
         ]
