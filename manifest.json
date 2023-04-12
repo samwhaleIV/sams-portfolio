@@ -7,6 +7,43 @@
     },
     "projects": [
         {
+            "title": "Elves",
+            "color": "red",
+            "description": "A reimagination of my first, major game development project with more years of experience, Elves raised the bar in my standards for code quality, user experience, and interface design.",
+            "pages": [
+                {
+                    "title": "Making a Splash",
+                    "image": "images/elves/1.png",
+                    "description": "No good game is complete without a splash screen. So, I took it literally. Having written the engine in scratch using C# and critical concern for realtime performance, this scene is rendered in 3D with orthographic projection, using a simple particle system to represent the elves floating by through the water. No memory is allocated on the heap after the first initialization. It could run on this screen forever until your computer or power fails."
+                },
+                {
+                    "title": "Save Select",
+                    "image": "images/elves/2.png",
+                    "description": "Difficult to demonstrate with static images, the background is a custom, infinitely scrolling dynamic shader, with realtime pan, rotation, and zoom effects. The UI system in the engine is written from the ground up (using a hybrid immediate mode approach) to allow for extremely simple to design motion graphics. Every UI element is screen size responsive and able to be animated as the context demands it. The real work house is the input system behind this all, allowing for keyboard focusing, gamepad control, mouse, and touch input, all while being opaque to the UI rendering and logic layers. It was a 'why re-invent' the wheel approach, but in the project it allowed for extremely responsive user experience. Using the UI just 'feels right'."
+                },
+                {
+                    "title": "Write your name!",
+                    "image": "images/elves/3.png",
+                    "description": "Typing your name is boring. Writing your name in low-def with a mouse or joystick is a way more fun user experience. Well, maybe not fun in the traditional sense, but for a game about evil Christmas elves, wacky is the standard definition of fun. The name tag bitmap format is extremely compressed, using bit manipulation to store 1-dimensional pixels into 8 bits of a byte."
+                },
+                {
+                    "title": "Battle Selection",
+                    "image": "images/elves/4.png",
+                    "description": "Another menu, in a sea of endless menus. This page is also rendered in 3D, allowing for a rotating carousel effect from the currently selected elf and the next/previous. The background scrolls horizontally, infinitely. Most buttons in the game change their size dynammically, based on their press/hover stated."
+                },
+                {
+                    "title": "Settings",
+                    "image": "images/elves/5.png",
+                    "description": "Cellphones in games. User interfaces have now come full circle. Just like all the UI in the game, each page is controlled with whatever input device you have available to you. This page includes a helpful red arrow to indicate element focus."
+                },
+                {
+                    "title": "Elf Game, Take #2",
+                    "image": "images/elves/6.png",
+                    "description": "You versus the guy she tells you not to worry about (pun intended). Compare and contrast, to You Versus 27 Elves. While I am not a gifted graphic designer, I hope that at least I have demonstrated by ability and commitment to personsal skill improvement. While this portfolio is mostly visual, I can assure you programming abilities expanded greatly among many projects that I have worked on, but especially the ones that I have showcased here."
+                }
+            ]
+        },
+        {
             "title": "Seven Circles",
             "color": "#ec4b0a",
             "description": "A top-down RPG video game, written in JavaScript, targeting HTML5 web browsers.",
@@ -69,33 +106,6 @@
             ]
         },
         {
-            "title": "You Versus Earth",
-            "color": "#8a539c",
-            "description": "An early experiment into more advanced video game programming.",
-            "pages": [
-                {
-                    "title": "Humble Beginnings",
-                    "image": "images/uvtc/1.png",
-                    "description": "My friend challenged me to keep making my menus better and better. While not up to my modern standard, this was my first major effort into cross platform video game UI design."
-                },
-                {
-                    "title": "Trippy Designs",
-                    "image": "images/uvtc/2.png",
-                    "description": "I can't honestly say what was going through my mind when I made this waterfall meets lava lamp page, but nobody can claim I wasn't trying to be creative. Through this project, I would eventually push the Chromium browser so hard I'd stumble into graphical context switching bugs with the Chromium shell itself, which started a long and lengthy process of getting the bug fixed. Ironically, this was a great learning experience in managing enterprise grade software and industry standard bug tracking and fixing procedures. Triaging Google Chrome is not fun. It's complex enough to be its own operating system. Shoutout to the Google employees that knew more about the problem than I did. It eventually got fixed."
-                },
-                {
-                    "title": "Controls",
-                    "image": "images/uvtc/3.png",
-                    "description": "I had an early eye for accessibility. So many projects get this wrong, but if you focus on accessibility from the start, it's easy to keep it up. Going back and adding missing accessibility later is a much more challenging prospect. While all the UI in this game was technically HTML5 based, it was rendered in a 2D rendering context, independent from the HTML DOM. I eventually realized this approach was misguided in other projects, where I instead chose to leverage the standard HTML layout engine for even greater UI capabilities. For this project, it kept things 'hypothetically' portable, but in practice, decouplin this project from the browser would have been a herculean task."
-                },
-                {
-                    "title": "Well, it ain't pretty, but it worked",
-                    "image": "images/uvtc/4.png",
-                    "description": "Again, this was my first real project in top-down, 2D rendering. While it seems trivial to me now, this was foundational in building my knowledge of building far superior technology that would eventually eclipse this project entirely."
-                }
-            ]
-        },
-        {
             "title": "Assorted Projects",
             "color": "#8cb9a2",
             "description": "Various projects that I couldn't generate or find enough screenshots of to earn their own categories.",
@@ -124,6 +134,11 @@
                     "title": "Keep With It",
                     "image": "images/asrt/5.png",
                     "description": "A workout planner written in C# for the Windows UWP platform, complete with rep/set counters and timers. While not the beautiful to look at, it featued large, intuitive timer controls operating under the assumption you wouldn't be spending a lot of time looking at the screen while doing your workout."
+                },
+                {
+                    "title": "Sam's Portfolio",
+                    "image": "images/asrt/6.png",
+                    "description": "Self-explanatory, does this even count? Portfolio inception."
                 }
             ]
         },
@@ -155,39 +170,29 @@
             ]
         },
         {
-            "title": "Elves",
-            "color": "red",
-            "description": "A reimagination of my first, major game development project with more years of experience, Elves raised the bar in my standards for code quality, user experience, and interface design.",
+            "title": "You Versus Earth",
+            "color": "#8a539c",
+            "description": "An early experiment into more advanced video game programming.",
             "pages": [
                 {
-                    "title": "Making a Splash",
-                    "image": "images/elves/1.png",
-                    "description": "No good game is complete without a splash screen. So, I took it literally. Having written the engine in scratch using C# and critical concern for realtime performance, this scene is rendered in 3D with orthographic projection, using a simple particle system to represent the elves floating by through the water. No memory is allocated on the heap after the first initialization. It could run on this screen forever until your computer or power fails."
+                    "title": "Humble Beginnings",
+                    "image": "images/uvtc/1.png",
+                    "description": "My friend challenged me to keep making my menus better and better. While not up to my modern standard, this was my first major effort into cross platform video game UI design."
                 },
                 {
-                    "title": "Save Select",
-                    "image": "images/elves/2.png",
-                    "description": "Difficult to demonstrate with static images, the background is a custom, infinitely scrolling dynamic shader, with realtime pan, rotation, and zoom effects. The UI system in the engine is written from the ground up (using a hybrid immediate mode approach) to allow for extremely simple to design motion graphics. Every UI element is screen size responsive and able to be animated as the context demands it. The real work house is the input system behind this all, allowing for keyboard focusing, gamepad control, mouse, and touch input, all while being opaque to the UI rendering and logic layers. It was a 'why re-invent' the wheel approach, but in the project it allowed for extremely responsive user experience. Using the UI just 'feels right'."
+                    "title": "Trippy Designs",
+                    "image": "images/uvtc/2.png",
+                    "description": "I can't honestly say what was going through my mind when I made this waterfall meets lava lamp page, but nobody can claim I wasn't trying to be creative. Through this project, I would eventually push the Chromium browser so hard I'd stumble into graphical context switching bugs with the Chromium shell itself, which started a long and lengthy process of getting the bug fixed. Ironically, this was a great learning experience in managing enterprise grade software and industry standard bug tracking and fixing procedures. Triaging Google Chrome is not fun. It's complex enough to be its own operating system. Shoutout to the Google employees that knew more about the problem than I did. It eventually got fixed."
                 },
                 {
-                    "title": "Write your name!",
-                    "image": "images/elves/3.png",
-                    "description": "Typing your name is boring. Writing your name in low-def with a mouse or joystick is a way more fun user experience. Well, maybe not fun in the traditional sense, but for a game about evil Christmas elves, wacky is the standard definition of fun. The name tag bitmap format is extremely compressed, using bit manipulation to store 1-dimensional pixels into 8 bits of a byte."
+                    "title": "Controls",
+                    "image": "images/uvtc/3.png",
+                    "description": "I had an early eye for accessibility. So many projects get this wrong, but if you focus on accessibility from the start, it's easy to keep it up. Going back and adding missing accessibility later is a much more challenging prospect. While all the UI in this game was technically HTML5 based, it was rendered in a 2D rendering context, independent from the HTML DOM. I eventually realized this approach was misguided in other projects, where I instead chose to leverage the standard HTML layout engine for even greater UI capabilities. For this project, it kept things 'hypothetically' portable, but in practice, decouplin this project from the browser would have been a herculean task."
                 },
                 {
-                    "title": "Battle Selection",
-                    "image": "images/elves/4.png",
-                    "description": "Another menu, in a sea of endless menus. This page is also rendered in 3D, allowing for a rotating carousel effect from the currently selected elf and the next/previous. The background scrolls horizontally, infinitely. Most buttons in the game change their size dynammically, based on their press/hover stated."
-                },
-                {
-                    "title": "Settings",
-                    "image": "images/elves/5.png",
-                    "description": "Cellphones in games. User interfaces have now come full circle. Just like all the UI in the game, each page is controlled with whatever input device you have available to you. This page includes a helpful red arrow to indicate element focus."
-                },
-                {
-                    "title": "Elf Game, Take #2",
-                    "image": "images/elves/6.png",
-                    "description": "You versus the guy she tells you not to worry about (pun intended). Compare and contrast, to You Versus 27 Elves. While I am not a gifted graphic designer, I hope that at least I have demonstrated by ability and commitment to personsal skill improvement. While this portfolio is mostly visual, I can assure you programming abilities expanded greatly among many projects that I have worked on, but especially the ones that I have showcased here."
+                    "title": "Well, it ain't pretty, but it worked",
+                    "image": "images/uvtc/4.png",
+                    "description": "Again, this was my first real project in top-down, 2D rendering. While it seems trivial to me now, this was foundational in building my knowledge of building far superior technology that would eventually eclipse this project entirely."
                 }
             ]
         }
